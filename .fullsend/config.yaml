@@ -13,4 +13,6 @@ runtime: dummy
 agents:
     - name: pr-ping
       source: harness/pr-ping.yaml
+    - name: issue-only-ping
+      source: harness/issue-only-ping.yaml
 mint_url: https://bt-9f892f82-bt-mint.fullsend-ai.workers.dev
